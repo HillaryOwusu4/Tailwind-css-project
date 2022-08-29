@@ -8,8 +8,13 @@ module.exports = {
         secondary: "#1B1D2B",
         nude:"#575861"
       },
-      height:{
-        h30: "34rem"
+      borderWidth:{
+        '100': '25px',
+        '50':'30px'
+      }, spacing: {
+        '82': '350px',
+        '100': '730px',
+        '30': '510px'
       }
     },
   },
