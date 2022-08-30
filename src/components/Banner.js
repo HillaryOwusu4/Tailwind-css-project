@@ -3,11 +3,7 @@ const Banner = () => {
     let banners = [{name:'John Smith',content:"Club Dj",info:"Performs in clubs and needs to know what is trending in the music industry",src:"./images/Adidas X Ninja - Time In.png"},{
         name:'Connie Willson',content:"Mobile Dj",info:"Performs in clubs and needs to know what is trending in the music industry",src:"./images/Lucy-S-Magazine.png"
     },{name:'Morris Watson',content:"Radio Dj",info:"Works on the radio neesd a fresh quality sound",src:"./images/3fea0d07-a683-4b36-8f17-cc3d02b180a8.png"}]
-    // let thats=""
-    //     banners.forEach(blogs => {
-    //          thats = blogs.name;
-    //          console.log(thats)
-    //     });
+   
      
     
     return ( <div className="w-full h-screen bg-primary flex justify-center">
@@ -36,14 +32,7 @@ const Banner = () => {
          <span className="mt-2 text-nude text-sm ">{bloogs.info}</span></div></div>)
     })}
 
-{/* <div className="flex flex-col  justify-center"> <img src="./images/Lucy-S-Magazine.png" alt="pic" className="w-16 h-16 rounded-full object-cover"/>
-    <span className="mt-4 text-white">Connie Willson</span>
-    <span className="mt-1 text-nude">Mobile Dj</span>
-    <span className="mt-2 text-nude text-sm ">Performs in clubs and must keep abrest of the latest trending in twon</span></div>
-<div className=" flex flex-col  justify-center mb-3"><img src="./images/3fea0d07-a683-4b36-8f17-cc3d02b180a8.png" alt="pic" className="w-16 h-16 rounded-full object-cover"/>
-    <span className="mt-4 text-white">  Morris Watson</span>
-    <span className="mt-1 text-nude">Radio Dj</span>
-    <span className="mt-2 text-nude text-sm ">Works on the radio neesd a fresh quality sound</span></div> */}
+
         </div>
     </div>
 </div>
